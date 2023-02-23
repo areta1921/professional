@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar ul{
+    position: fixed;
+    list-style-type: none;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4%;
+    font-weight:lighter;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-size: contain;
+    background-image: url("image/milky-way-2750627__340.jpeg");
+}
+.navbar ul li:hover{
+    color: #553527;
+    border-bottom: 2px solid #d9b8aa;  
+}
+
+
+.navbar ul li a{
+    text-shadow: 2px 2px #005609;
+    letter-spacing: 1px;  
+    color: antiquewhite;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+
+  
+}
+
+
+/* end of navbar */
+
+/* home page */
+.main-name{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20%;
+    background-size: cover;
+    align-items: center;
+    background-image: url("image/map-of-the-world-2401458_960_720.jpeg");
+}
+
+.intro h1{
+    font-size: 300%;
+    color: rgba(8, 10, 8, 0.741);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px hsla(135, 87%, 50%, 0.953);
+}
+
+.intro h4{
+     font-family: 'Lobster', cursive;
+     font-size: 2rem;
+     color: rgba(18, 2, 31, 0.986);
+     text-shadow: 1px 1px rgb(252, 246, 233);
+     word-spacing: 10px;
+}
+span{
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    color: rgba(72, 0, 255, 0.617);
+    
+}
+
+.image{
+   border-radius: 25%;
+    margin-right: -85%;
+  
+}
+.image img{
+    border-radius: 50%;
+}
+
+/* end of home page */
+
+/* about me */
+
+.about-me{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 20%;
+   background-image: url("image/milky-way-2750627__340.jpeg");
+}
+
+.about-me img{
+  border-radius: 25%;
+  width: 40rem;
+  margin-left: -10rem;
+}
+
+.about-me1{ 
+    color: white;
+    margin-left: 3rem;
+}
+
+.about-me1 h1{
+    font-size: 2em;
+margin-top: -8%;
+}
+
+.about-me1 span{
+    text-shadow: 2px 2px red;
+    font-size: 2.5rem;
+    color: rgb(0, 255, 8);
+}
+
+.about-me1 p{
+    font-size: 120%;
+   text-align: center;
+}
+/* end of about me */
+
+/* experiance */
+.main-exprc{
+    padding: 20%;
+    background-image: url("image/swan.jpeg");
+}
+
+.main-exprc h1{
+    text-align: center;
+    margin-top: -3rem;
+    color: #b7d410;
+}
+
+.main-exprc p{
+    margin-top: 3rem;
+   color: white;
+}
+/* end of experiance */
+
+
+/* education */
+.education{
+  background-size: cover;
+   padding: 20%;
+   background-image: url("image/fizer.jpg");
+}
+
+.sub h1{
+    font-size: 6rem;
+    color: white;
+    margin-top: -5rem;
+    font-family: 'Lobster', cursive;
+     margin-left: 25%;
+}
+
+.sub h3{
+    color: lawngreen;
+    font-size: 1.5rem;
+   
+}
+
+.sub ul{
+    color: white;
+    
+}
+
+
+.certi-detail h3{
+    color: lawngreen;
+    font-size: 1.5rem;
+    margin-top: 60px;
+    
+   
+}
+
+.certi-detail ul{
+    color: white;
+   
+}
+
+.sub{
+    margin-top: 2rem;
+    padding-right: 8rem;
+    
+}
+
+.header1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #f2f4e4;
+    text-shadow: 2px 2px rgb(96, 132, 241);
+   font-size: 4em;
+}
+
+
+/* end of eduction*/
+
+/* skills */
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    align-items: center;
+    padding: 20%;
+    background-image: url("image/coding.webp");
+}
+
+.skill-set h1{
+  text-align: center;
+  margin-top: -18rem;
+  padding: 20%;
+  color: rgb(126, 197, 227);
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
+  text-shadow: 8px 5px rgb(242, 242, 242);
+}
+
+.skill-set{
+text-align: center;
+ 
+}
+.icon{
+  width: 15.875rem;
+  height: 11.25rem; 
+}
+.skill-set img:hover{
+background-color: rgba(24, 194, 236, 0.784);
+}
+/* end of skill */
+
+
+/* PROJECT SECTION */
+.proj-head{
+    text-align: center;
+    margin-top: 4%;
+} 
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;  
+    padding: 5%;
+    
+}
+
+.proj-head{
+    background-image: url(image/earth.jpg);
+    background-size: cover;
+    margin:0;
+}
+.proj-head h1{
+ color: rgba(188, 227, 143, 0.905);
+ font-size: 5rem;
+ margin-bottom: -3%;
+ font-family:'Lobster', cursive;;
+}
+.container div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: 20px;
+    
+}
+
+
+.first-div{
+    border: 1px solid #f2f4e4;
+    background-color: #c6cfed; 
+    background-image: url(image/swan.jpeg);
+  }
+
+  .first-div h2 a:hover{
+      background-color: #fefffd;
+      animation: both;
+  }
+  .first-div h2{
+     text-align: center;
+     font-size: 2rem;
+     letter-spacing: 4px;
+     text-decoration: none;
+    color: #f2f4e4;
+  }
+
+  .first-div h2 a{
+    text-decoration: none;
+ }
+
+
+  
+  .second-div{
+    color: white;
+    border: 1px solid #f2f4e4;
+    background-image: url(image/milky-way-2750627__340.jpeg);
+  }
+  
+  .third-div{
+    color: white;
+    border: 1px solid #f2f4e4;
+    background-image: url(image/texture-2613518__340.jpeg);
+    background-size: cover;
+  }
+  
+  .fourth-div{
+    color: white;
+    border: 1px solid #f2f4e4;
+    background-image: url(image/futuristic-6479796__340.jpeg);
+    background-size: cover;
+  }
+  
+  .fifth-div{
+    color: white;
+    border: 1px solid #f2f4e4;
+    background-image: url(image/laptop.jpeg);
+  }
+  
+  .sixth-div{
+    color: white;
+    border: 1px solid #f2f4e4;
+    background-image: url(image/fizer.jpg);
+  }
+  
+.first-div:hover{
+    background-color: #642509;
+}
+
+.second-div:hover{
+    background-color: #91e609;
+}
+.third-div:hover{
+    background-color: #fdb190;
+}
+.fourth-div:hover{
+    background-color: #a9d832;
+}
+.fifth-div:hover{
+    background-color: #2d499e;
+}
+.sixth-div:hover{
+    background-color: #5ec80dab;
+}
+ 
+/* END OF PROJECT SECTION */
+
+
+
+
+
+
+/* socila medials */
+.socials{
+ text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+  
+  .socicon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .socials:hover{
+     background-color: red;
+  }
+/* end of social media */
+
+  /* footer */
+  .footer{
+   background: fixed;
+    padding: 4%;
+    text-align: center;
+    background-image: url("image/devops-3148408_960_720.jpeg");
+}
+/* end of footer */
+
+  @media screen and (max-width:600px) {
+    .navbar{
+        margin-top: -2.4rem;
+        
+    }
+    .navbar ul{
+        flex-direction: column;
+        margin-top: 7%;
+ 
+    }
+    .main-name{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .about-me{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .container2 > *{
+    flex-direction: column;
+    align-items: center;
+   
+    }
+    .for-media{
+        width: 100%;
+    }
+  .about-me img{
+     width: 100%;
+     margin-left: 6%;
+  }
+    .sub{
+        width: 100%;   
+    }
+    .sub h1{
+        color: #4ce76e;
+        margin-top: 20%;
+        font-size: 3rem;
+    }
+    .skill-set h1{
+        margin-top: 0;
+        color: #b7d410;
+    }
+    .intro h1 {
+       margin-top: 50%;
+    }
+    .intro h4{
+        text-align: center;
+    }
+    .main-exprc h1{
+        color: #adf89c8b;
+       margin-top: 2rem;
+    }
+    .intro{
+        margin-top: 17%;
+    }
+    .header1{
+       margin-top: 20vh;
+       font-size:250%;
+    }
+    .footer{
+        padding: 19%;
+        
+    }
+
+    .image{
+       padding: 57%;
+       margin-left: -77%;
+       margin-top: -25%;
+     }
+    
+    
+
+
+ 
+
+
